@@ -7,6 +7,9 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		FB8798391E356D2D0004A75C /* LayoutButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = FB8798361E356D2D0004A75C /* LayoutButton.swift */; };
+		FB87983A1E356D2D0004A75C /* MainScreenBackground.swift in Sources */ = {isa = PBXBuildFile; fileRef = FB8798371E356D2D0004A75C /* MainScreenBackground.swift */; };
+		FB87983B1E356D2D0004A75C /* HoldLocations.swift in Sources */ = {isa = PBXBuildFile; fileRef = FB8798381E356D2D0004A75C /* HoldLocations.swift */; };
 		FBC984591E3567FA00137237 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = FBC984581E3567FA00137237 /* AppDelegate.swift */; };
 		FBC9845B1E3567FA00137237 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FBC9845A1E3567FA00137237 /* ViewController.swift */; };
 		FBC9845D1E3567FA00137237 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = FBC9845C1E3567FA00137237 /* Assets.xcassets */; };
@@ -34,6 +37,9 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		FB8798361E356D2D0004A75C /* LayoutButton.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LayoutButton.swift; sourceTree = "<group>"; };
+		FB8798371E356D2D0004A75C /* MainScreenBackground.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MainScreenBackground.swift; sourceTree = "<group>"; };
+		FB8798381E356D2D0004A75C /* HoldLocations.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HoldLocations.swift; sourceTree = "<group>"; };
 		FBC984551E3567FA00137237 /* GlowHoldsPanelLayout.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = GlowHoldsPanelLayout.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		FBC984581E3567FA00137237 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		FBC9845A1E3567FA00137237 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -97,6 +103,9 @@
 		FBC984571E3567FA00137237 /* GlowHoldsPanelLayout */ = {
 			isa = PBXGroup;
 			children = (
+				FB8798361E356D2D0004A75C /* LayoutButton.swift */,
+				FB8798371E356D2D0004A75C /* MainScreenBackground.swift */,
+				FB8798381E356D2D0004A75C /* HoldLocations.swift */,
 				FBC984831E356B2800137237 /* WallDesignerGraphics.pcvd */,
 				FBC984581E3567FA00137237 /* AppDelegate.swift */,
 				FBC9845A1E3567FA00137237 /* ViewController.swift */,
@@ -262,7 +271,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				FB87983B1E356D2D0004A75C /* HoldLocations.swift in Sources */,
+				FB8798391E356D2D0004A75C /* LayoutButton.swift in Sources */,
 				FBC9845B1E3567FA00137237 /* ViewController.swift in Sources */,
+				FB87983A1E356D2D0004A75C /* MainScreenBackground.swift in Sources */,
 				FBC984591E3567FA00137237 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -511,6 +523,7 @@
 				FBC9847C1E3567FA00137237 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		FBC9847D1E3567FA00137237 /* Build configuration list for PBXNativeTarget "GlowHoldsPanelLayoutTests" */ = {
 			isa = XCConfigurationList;
@@ -519,6 +532,7 @@
 				FBC9847F1E3567FA00137237 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		FBC984801E3567FA00137237 /* Build configuration list for PBXNativeTarget "GlowHoldsPanelLayoutUITests" */ = {
 			isa = XCConfigurationList;
@@ -527,6 +541,7 @@
 				FBC984821E3567FA00137237 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
