@@ -1,0 +1,528 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		FBC984591E3567FA00137237 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = FBC984581E3567FA00137237 /* AppDelegate.swift */; };
+		FBC9845B1E3567FA00137237 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FBC9845A1E3567FA00137237 /* ViewController.swift */; };
+		FBC9845D1E3567FA00137237 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = FBC9845C1E3567FA00137237 /* Assets.xcassets */; };
+		FBC984601E3567FA00137237 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FBC9845E1E3567FA00137237 /* Main.storyboard */; };
+		FBC9846B1E3567FA00137237 /* GlowHoldsPanelLayoutTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = FBC9846A1E3567FA00137237 /* GlowHoldsPanelLayoutTests.swift */; };
+		FBC984761E3567FA00137237 /* GlowHoldsPanelLayoutUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = FBC984751E3567FA00137237 /* GlowHoldsPanelLayoutUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		FBC984671E3567FA00137237 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = FBC9844D1E3567FA00137237 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = FBC984541E3567FA00137237;
+			remoteInfo = GlowHoldsPanelLayout;
+		};
+		FBC984721E3567FA00137237 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = FBC9844D1E3567FA00137237 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = FBC984541E3567FA00137237;
+			remoteInfo = GlowHoldsPanelLayout;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		FBC984551E3567FA00137237 /* GlowHoldsPanelLayout.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = GlowHoldsPanelLayout.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		FBC984581E3567FA00137237 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		FBC9845A1E3567FA00137237 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		FBC9845C1E3567FA00137237 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		FBC9845F1E3567FA00137237 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		FBC984611E3567FA00137237 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		FBC984661E3567FA00137237 /* GlowHoldsPanelLayoutTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = GlowHoldsPanelLayoutTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		FBC9846A1E3567FA00137237 /* GlowHoldsPanelLayoutTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GlowHoldsPanelLayoutTests.swift; sourceTree = "<group>"; };
+		FBC9846C1E3567FA00137237 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		FBC984711E3567FA00137237 /* GlowHoldsPanelLayoutUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = GlowHoldsPanelLayoutUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		FBC984751E3567FA00137237 /* GlowHoldsPanelLayoutUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GlowHoldsPanelLayoutUITests.swift; sourceTree = "<group>"; };
+		FBC984771E3567FA00137237 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		FBC984521E3567FA00137237 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FBC984631E3567FA00137237 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FBC9846E1E3567FA00137237 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		FBC9844C1E3567FA00137237 = {
+			isa = PBXGroup;
+			children = (
+				FBC984571E3567FA00137237 /* GlowHoldsPanelLayout */,
+				FBC984691E3567FA00137237 /* GlowHoldsPanelLayoutTests */,
+				FBC984741E3567FA00137237 /* GlowHoldsPanelLayoutUITests */,
+				FBC984561E3567FA00137237 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		FBC984561E3567FA00137237 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				FBC984551E3567FA00137237 /* GlowHoldsPanelLayout.app */,
+				FBC984661E3567FA00137237 /* GlowHoldsPanelLayoutTests.xctest */,
+				FBC984711E3567FA00137237 /* GlowHoldsPanelLayoutUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		FBC984571E3567FA00137237 /* GlowHoldsPanelLayout */ = {
+			isa = PBXGroup;
+			children = (
+				FBC984581E3567FA00137237 /* AppDelegate.swift */,
+				FBC9845A1E3567FA00137237 /* ViewController.swift */,
+				FBC9845C1E3567FA00137237 /* Assets.xcassets */,
+				FBC9845E1E3567FA00137237 /* Main.storyboard */,
+				FBC984611E3567FA00137237 /* Info.plist */,
+			);
+			path = GlowHoldsPanelLayout;
+			sourceTree = "<group>";
+		};
+		FBC984691E3567FA00137237 /* GlowHoldsPanelLayoutTests */ = {
+			isa = PBXGroup;
+			children = (
+				FBC9846A1E3567FA00137237 /* GlowHoldsPanelLayoutTests.swift */,
+				FBC9846C1E3567FA00137237 /* Info.plist */,
+			);
+			path = GlowHoldsPanelLayoutTests;
+			sourceTree = "<group>";
+		};
+		FBC984741E3567FA00137237 /* GlowHoldsPanelLayoutUITests */ = {
+			isa = PBXGroup;
+			children = (
+				FBC984751E3567FA00137237 /* GlowHoldsPanelLayoutUITests.swift */,
+				FBC984771E3567FA00137237 /* Info.plist */,
+			);
+			path = GlowHoldsPanelLayoutUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		FBC984541E3567FA00137237 /* GlowHoldsPanelLayout */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = FBC9847A1E3567FA00137237 /* Build configuration list for PBXNativeTarget "GlowHoldsPanelLayout" */;
+			buildPhases = (
+				FBC984511E3567FA00137237 /* Sources */,
+				FBC984521E3567FA00137237 /* Frameworks */,
+				FBC984531E3567FA00137237 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = GlowHoldsPanelLayout;
+			productName = GlowHoldsPanelLayout;
+			productReference = FBC984551E3567FA00137237 /* GlowHoldsPanelLayout.app */;
+			productType = "com.apple.product-type.application";
+		};
+		FBC984651E3567FA00137237 /* GlowHoldsPanelLayoutTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = FBC9847D1E3567FA00137237 /* Build configuration list for PBXNativeTarget "GlowHoldsPanelLayoutTests" */;
+			buildPhases = (
+				FBC984621E3567FA00137237 /* Sources */,
+				FBC984631E3567FA00137237 /* Frameworks */,
+				FBC984641E3567FA00137237 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				FBC984681E3567FA00137237 /* PBXTargetDependency */,
+			);
+			name = GlowHoldsPanelLayoutTests;
+			productName = GlowHoldsPanelLayoutTests;
+			productReference = FBC984661E3567FA00137237 /* GlowHoldsPanelLayoutTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		FBC984701E3567FA00137237 /* GlowHoldsPanelLayoutUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = FBC984801E3567FA00137237 /* Build configuration list for PBXNativeTarget "GlowHoldsPanelLayoutUITests" */;
+			buildPhases = (
+				FBC9846D1E3567FA00137237 /* Sources */,
+				FBC9846E1E3567FA00137237 /* Frameworks */,
+				FBC9846F1E3567FA00137237 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				FBC984731E3567FA00137237 /* PBXTargetDependency */,
+			);
+			name = GlowHoldsPanelLayoutUITests;
+			productName = GlowHoldsPanelLayoutUITests;
+			productReference = FBC984711E3567FA00137237 /* GlowHoldsPanelLayoutUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		FBC9844D1E3567FA00137237 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0820;
+				LastUpgradeCheck = 0820;
+				ORGANIZATIONNAME = Rectec;
+				TargetAttributes = {
+					FBC984541E3567FA00137237 = {
+						CreatedOnToolsVersion = 8.2.1;
+						DevelopmentTeam = G2K37TVFKV;
+						ProvisioningStyle = Automatic;
+					};
+					FBC984651E3567FA00137237 = {
+						CreatedOnToolsVersion = 8.2.1;
+						DevelopmentTeam = G2K37TVFKV;
+						ProvisioningStyle = Automatic;
+						TestTargetID = FBC984541E3567FA00137237;
+					};
+					FBC984701E3567FA00137237 = {
+						CreatedOnToolsVersion = 8.2.1;
+						DevelopmentTeam = G2K37TVFKV;
+						ProvisioningStyle = Automatic;
+						TestTargetID = FBC984541E3567FA00137237;
+					};
+				};
+			};
+			buildConfigurationList = FBC984501E3567FA00137237 /* Build configuration list for PBXProject "GlowHoldsPanelLayout" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = FBC9844C1E3567FA00137237;
+			productRefGroup = FBC984561E3567FA00137237 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				FBC984541E3567FA00137237 /* GlowHoldsPanelLayout */,
+				FBC984651E3567FA00137237 /* GlowHoldsPanelLayoutTests */,
+				FBC984701E3567FA00137237 /* GlowHoldsPanelLayoutUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		FBC984531E3567FA00137237 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FBC9845D1E3567FA00137237 /* Assets.xcassets in Resources */,
+				FBC984601E3567FA00137237 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FBC984641E3567FA00137237 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FBC9846F1E3567FA00137237 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		FBC984511E3567FA00137237 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FBC9845B1E3567FA00137237 /* ViewController.swift in Sources */,
+				FBC984591E3567FA00137237 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FBC984621E3567FA00137237 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FBC9846B1E3567FA00137237 /* GlowHoldsPanelLayoutTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FBC9846D1E3567FA00137237 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FBC984761E3567FA00137237 /* GlowHoldsPanelLayoutUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		FBC984681E3567FA00137237 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = FBC984541E3567FA00137237 /* GlowHoldsPanelLayout */;
+			targetProxy = FBC984671E3567FA00137237 /* PBXContainerItemProxy */;
+		};
+		FBC984731E3567FA00137237 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = FBC984541E3567FA00137237 /* GlowHoldsPanelLayout */;
+			targetProxy = FBC984721E3567FA00137237 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		FBC9845E1E3567FA00137237 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				FBC9845F1E3567FA00137237 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		FBC984781E3567FA00137237 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "-";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.12;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		FBC984791E3567FA00137237 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "-";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.12;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = macosx;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+			};
+			name = Release;
+		};
+		FBC9847B1E3567FA00137237 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				COMBINE_HIDPI_IMAGES = YES;
+				DEVELOPMENT_TEAM = G2K37TVFKV;
+				INFOPLIST_FILE = GlowHoldsPanelLayout/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = org.rectec.GlowHoldsPanelLayout;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Debug;
+		};
+		FBC9847C1E3567FA00137237 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				COMBINE_HIDPI_IMAGES = YES;
+				DEVELOPMENT_TEAM = G2K37TVFKV;
+				INFOPLIST_FILE = GlowHoldsPanelLayout/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = org.rectec.GlowHoldsPanelLayout;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Release;
+		};
+		FBC9847E1E3567FA00137237 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				COMBINE_HIDPI_IMAGES = YES;
+				DEVELOPMENT_TEAM = G2K37TVFKV;
+				INFOPLIST_FILE = GlowHoldsPanelLayoutTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = org.rectec.GlowHoldsPanelLayoutTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/GlowHoldsPanelLayout.app/Contents/MacOS/GlowHoldsPanelLayout";
+			};
+			name = Debug;
+		};
+		FBC9847F1E3567FA00137237 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				COMBINE_HIDPI_IMAGES = YES;
+				DEVELOPMENT_TEAM = G2K37TVFKV;
+				INFOPLIST_FILE = GlowHoldsPanelLayoutTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = org.rectec.GlowHoldsPanelLayoutTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/GlowHoldsPanelLayout.app/Contents/MacOS/GlowHoldsPanelLayout";
+			};
+			name = Release;
+		};
+		FBC984811E3567FA00137237 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				COMBINE_HIDPI_IMAGES = YES;
+				DEVELOPMENT_TEAM = G2K37TVFKV;
+				INFOPLIST_FILE = GlowHoldsPanelLayoutUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = org.rectec.GlowHoldsPanelLayoutUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_TARGET_NAME = GlowHoldsPanelLayout;
+			};
+			name = Debug;
+		};
+		FBC984821E3567FA00137237 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				COMBINE_HIDPI_IMAGES = YES;
+				DEVELOPMENT_TEAM = G2K37TVFKV;
+				INFOPLIST_FILE = GlowHoldsPanelLayoutUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = org.rectec.GlowHoldsPanelLayoutUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_TARGET_NAME = GlowHoldsPanelLayout;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		FBC984501E3567FA00137237 /* Build configuration list for PBXProject "GlowHoldsPanelLayout" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FBC984781E3567FA00137237 /* Debug */,
+				FBC984791E3567FA00137237 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		FBC9847A1E3567FA00137237 /* Build configuration list for PBXNativeTarget "GlowHoldsPanelLayout" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FBC9847B1E3567FA00137237 /* Debug */,
+				FBC9847C1E3567FA00137237 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		FBC9847D1E3567FA00137237 /* Build configuration list for PBXNativeTarget "GlowHoldsPanelLayoutTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FBC9847E1E3567FA00137237 /* Debug */,
+				FBC9847F1E3567FA00137237 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		FBC984801E3567FA00137237 /* Build configuration list for PBXNativeTarget "GlowHoldsPanelLayoutUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FBC984811E3567FA00137237 /* Debug */,
+				FBC984821E3567FA00137237 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = FBC9844D1E3567FA00137237 /* Project object */;
+}
