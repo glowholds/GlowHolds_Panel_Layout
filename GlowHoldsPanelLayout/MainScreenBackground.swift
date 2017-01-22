@@ -19,13 +19,6 @@ class MainScreenBackground: NSView {
     }
 }
 
-class WallPanel: NSView {
-    override func draw(_ dirtyRect: NSRect) {
-        super.draw(dirtyRect)
-        // Drawing code here.
-        GlowHoldsDesignerStyleKit.drawWallUnit()
-    }
-}
 
 class ClimbingHold: NSView {
     override func draw(_ dirtyRect: NSRect) {
