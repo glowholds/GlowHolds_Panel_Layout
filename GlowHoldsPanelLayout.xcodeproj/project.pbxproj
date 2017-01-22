@@ -105,8 +105,8 @@
 		FBC984571E3567FA00137237 /* GlowHoldsPanelLayout */ = {
 			isa = PBXGroup;
 			children = (
-				FB87983C1E3571220004A75C /* GlowHoldsDesignerStyleKit.swift */,
 				FBC9845E1E3567FA00137237 /* Main.storyboard */,
+				FB87983C1E3571220004A75C /* GlowHoldsDesignerStyleKit.swift */,
 				FB8798361E356D2D0004A75C /* LayoutButton.swift */,
 				FB8798371E356D2D0004A75C /* MainScreenBackground.swift */,
 				FB8798381E356D2D0004A75C /* HoldLocations.swift */,

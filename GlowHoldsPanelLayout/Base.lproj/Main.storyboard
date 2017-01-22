@@ -690,17 +690,6 @@
                                 <rect key="frame" x="62" y="70" width="480" height="480"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMinY="YES"/>
                             </customView>
-                            <button verticalHuggingPriority="750" fixedFrame="YES" springLoaded="YES" translatesAutoresizingMaskIntoConstraints="NO" id="POv-zU-lyo" customClass="LayoutButton" customModule="GlowHoldsPanelLayout" customModuleProvider="target">
-                                <rect key="frame" x="584" y="114" width="194" height="74"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMinY="YES"/>
-                                <buttonCell key="cell" type="bevel" bezelStyle="regularSquare" image="Layout Button" imagePosition="overlaps" alignment="center" state="on" imageScaling="proportionallyDown" inset="2" id="D3N-Vr-IIJ">
-                                    <behavior key="behavior" pushIn="YES" lightByBackground="YES" lightByGray="YES"/>
-                                    <font key="font" metaFont="system"/>
-                                </buttonCell>
-                                <connections>
-                                    <action selector="layoutButtonClicked:" target="XfG-lQ-9wD" id="jrx-C9-Ztg"/>
-                                </connections>
-                            </button>
                             <textField verticalHuggingPriority="750" horizontalCompressionResistancePriority="250" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="y6J-8N-ayu">
                                 <rect key="frame" x="593" y="210" width="177" height="223"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMinY="YES"/>
@@ -710,6 +699,17 @@
                                     <color key="backgroundColor" name="textBackgroundColor" catalog="System" colorSpace="catalog"/>
                                 </textFieldCell>
                             </textField>
+                            <button fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="CG6-GU-fL8" customClass="LayoutButton" customModule="GlowHoldsPanelLayout" customModuleProvider="target">
+                                <rect key="frame" x="585" y="116" width="193" height="67"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMinY="YES"/>
+                                <buttonCell key="cell" type="square" bezelStyle="shadowlessSquare" imagePosition="only" alignment="center" transparent="YES" imageScaling="proportionallyUpOrDown" inset="2" id="Y5n-df-EhN">
+                                    <behavior key="behavior" pushIn="YES" lightByBackground="YES" lightByGray="YES"/>
+                                    <font key="font" metaFont="system"/>
+                                </buttonCell>
+                                <connections>
+                                    <action selector="layoutButtonClicked:" target="XfG-lQ-9wD" id="fdV-2t-fpy"/>
+                                </connections>
+                            </button>
                         </subviews>
                     </view>
                     <connections>
@@ -719,10 +719,7 @@
                 </viewController>
                 <customObject id="rPt-NT-nkU" userLabel="First Responder" customClass="NSResponder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="75" y="655"/>
+            <point key="canvasLocation" x="74.5" y="654.5"/>
         </scene>
     </scenes>
-    <resources>
-        <image name="Layout Button" width="176" height="67"/>
-    </resources>
 </document>
