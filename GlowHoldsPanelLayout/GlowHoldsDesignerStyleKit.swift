@@ -1333,20 +1333,14 @@ public class GlowHoldsDesignerStyleKit : NSObject {
 
 
         //// Text Drawing
-        let textRect = NSRect(x: 30, y: 14, width: 135, height: 38)
-        let textTextContent = "Layout"
+        let textRect = NSRect(x: 30, y: -10, width: 135, height: 66)
         NSGraphicsContext.saveGraphicsState()
         context.setShadow(offset: NSSize(width: buttonShadowText.shadowOffset.width * resizedShadowScale, height: buttonShadowText.shadowOffset.height * resizedShadowScale), blur: buttonShadowText.shadowBlurRadius * resizedShadowScale, color: buttonShadowText.shadowColor!.cgColor)
         let textStyle = NSMutableParagraphStyle()
         textStyle.alignment = .center
         let textFontAttributes = [NSFontAttributeName: NSFont(name: "CarterOne", size: 36)!, NSForegroundColorAttributeName: NSColor.white, NSParagraphStyleAttributeName: textStyle]
 
-        let textTextHeight: CGFloat = textTextContent.boundingRect(with: NSSize(width: textRect.width, height: CGFloat.infinity), options: .usesLineFragmentOrigin, attributes: textFontAttributes).height
-        let textTextRect: NSRect = NSRect(x: textRect.minX, y: textRect.minY + (textRect.height - textTextHeight) / 2, width: textRect.width, height: textTextHeight)
-        NSGraphicsContext.saveGraphicsState()
-        NSRectClip(textRect)
-        textTextContent.draw(in: textTextRect.offsetBy(dx: 0, dy: -12), withAttributes: textFontAttributes)
-        NSGraphicsContext.restoreGraphicsState()
+        "Layout".draw(in: textRect, withAttributes: textFontAttributes)
         
         ////// Text Text Inner Shadow
         NSGraphicsContext.saveGraphicsState()
@@ -1366,7 +1360,7 @@ public class GlowHoldsDesignerStyleKit : NSObject {
 
         let textShadowFontAttributes = [NSFontAttributeName: NSFont(name: "CarterOne", size: 36)!, NSForegroundColorAttributeName: buttonGreenReallyDark, NSParagraphStyleAttributeName: textStyle]
 
-        textTextContent.draw(in: textTextRect, withAttributes: textShadowFontAttributes)
+        "Layout".draw(in: textRect, withAttributes: textShadowFontAttributes)
 
         context.endTransparencyLayer()
         context.endTransparencyLayer()
